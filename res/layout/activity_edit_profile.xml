@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="#1ea8e0" >
+
+            <ImageView
+                android:id="@+id/imagebackbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/backbutton" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Edit Profile"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/buttonDone"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:text="Done"
+                android:textColor="#ffffff"
+                android:background="#1ea8e0" 
+                android:textStyle="bold|italic"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff" >
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:scrollbarThumbVertical="@drawable/scrollbar"
+                android:scrollbarSize="4dp"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" 
+                     android:descendantFocusability="beforeDescendants"
+                     android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/imageEditprofileimage"
+                        android:layout_below="@+id/imageEditprofileimage"
+                        android:layout_marginTop="60px"
+                        android:text="Private Information"
+                        android:textStyle="bold|italic"
+                        android:textColor="#1ea8e0"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/edittxtUsermail"
+                        android:layout_width="220sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView2"
+                        android:layout_centerHorizontal="true"
+                        android:ems="10"
+                         android:textSize="15sp"
+                         android:background="#ffffff"
+                       >
+
+                      
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView1"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="40sp"
+                        android:src="@drawable/attherate" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/imageView2"
+                        android:layout_below="@+id/imageView2"
+                        android:layout_marginTop="20sp"
+                        android:src="@drawable/user" />
+
+                    <EditText
+                        android:id="@+id/edittxtUsername"
+                        android:layout_width="220sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView3"
+                        android:layout_alignLeft="@+id/edittxtUsermail"
+                        android:ems="10" 
+                         android:textSize="15sp"
+                          android:background="#ffffff"
+                      />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/imageView3"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="20sp"
+                        android:src="@drawable/malefemal"
+                        />
+
+                    <EditText
+                        android:id="@+id/edittxtgender"
+                        android:layout_width="220sp"
+                         android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView4"
+                        android:layout_centerHorizontal="true"
+                        android:ems="10" 
+                         android:background="#ffffff"
+                       />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/imageView4"
+                        android:layout_below="@+id/imageView4"
+                        android:layout_marginTop="20sp"
+                        android:src="@drawable/bday" />
+
+                    <EditText
+                        android:id="@+id/edittxtdob"
+                        android:layout_width="220sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView5"
+                        android:layout_centerHorizontal="true"
+                         android:textSize="15sp"
+                        android:background="#ffffff"
+                        android:ems="10" />
+
+                    <Button
+                        android:id="@+id/buttoneditgender"
+                        style="?android:attr/buttonStyleSmall"
+                           android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_above="@+id/imageView5"
+                        android:layout_alignParentRight="true"
+                        android:background="#ffffff"
+                        android:text="Edit" />
+
+                    <Button
+                        android:id="@+id/buttoneditname"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/imageView3"
+                        android:background="#ffffff"
+                        android:text="Edit" />
+
+                    <Button
+                        android:id="@+id/buttoneditmail"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_above="@+id/imageView3"
+                        android:layout_alignParentRight="true"
+                        android:background="#ffffff"
+                        android:text="Edit" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageEditprofileimage"
+                        android:layout_centerHorizontal="true"
+                        android:text="                              "
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <ImageView
+                        android:id="@+id/imageEditprofileimage"
+                        android:layout_width="70sp"
+                        android:layout_height="70sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginTop="50sp"
+                        android:layout_toLeftOf="@+id/textView2"
+                        android:src="@drawable/userpicback" />
+
+                    <Button
+                        android:id="@+id/buttoneditdob"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/imageView5"
+                        android:background="#ffffff"
+                        android:text="Edit" />
+
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </TableLayout>
+
+</RelativeLayout>

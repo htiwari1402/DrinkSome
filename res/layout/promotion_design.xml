@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageMainPromotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+        android:src="@drawable/promodemo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignBottom="@+id/imageMainPromotion"
+        
+         android:layout_centerHorizontal="true"
+        android:background="#1899d1" >
+
+        <ImageView
+            android:id="@+id/imagePromotitle"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/promotitle" />
+
+        <TextView
+            android:id="@+id/textpromoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imagePromotitle"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/imagePromotitle"
+            android:text="Small Text"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textpromoTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textpromoTitle"
+            android:layout_below="@+id/textpromoTitle"
+            android:text="Small Text"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/imagePromoFav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="46dp"
+            android:src="@drawable/promofav" />
+
+        <ImageView
+            android:id="@+id/imagePromoShare"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/promoshare" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

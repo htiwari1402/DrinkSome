@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" 
+        
+        android:layout_centerHorizontal="true"
+        android:background="#a8a8a8" >
+
+        <ImageView
+            android:id="@+id/imagehomepageEvent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:layout_centerHorizontal="true"
+          
+            android:background="#a8a8a8"
+            android:scaleType="fitXY"
+            android:src="@drawable/homepageeventdesign" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignBottom="@+id/imagehomepageEvent"
+            android:layout_centerHorizontal="true"
+            android:background="#1899d1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+               >
+
+                <TextView
+                    android:id="@+id/txtHomepageeventvenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Venue:"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/txthomepageeventdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Date:"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/txtHomepageeventtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Time:"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrinkSomeWhere</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_navigation_test">NavigationTest</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_quick_searchactivity">QuickSearchactivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="spinner_prompt">All Outlet Types</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_event_calender">EventCalender</string>
+    <string name="title_activity_search_result_map">SearchResultMap</string>
+    <string name="title_activity_search_result_details">SearchResultDetails</string>
+    <string name="title_activity_event_details">EventDetails</string>
+    <string name="title_activity_promotions">Promotions</string>
+    <string name="title_activity_promotion_enter_code">PromotionEnterCode</string>
+    <string name="title_activity_promotion_code_confirm">PromotionCodeConfirm</string>
+    <string name="title_activity_favorities">Favorities</string>
+    <string name="title_activity_editorials">Editorials</string>
+    <string name="title_activity_reviews">Reviews</string>
+    <string name="spinner">All Outlet Types</string>
+
+    <string-array name="spinner_values">
+        <item>All Outlet Types</item>
+        <item>Al Fresco</item>
+        <item>Beer</item>
+        <item>Cafe</item>
+        <item>Clubs</item>
+        <item>Cocktails</item>
+        <item>Coffee</item>
+        <item>Lounges</item>
+        <item>Pub/Bars</item>
+        <item>Restaurant</item>
+        <item>Restaurant/Bar</item>
+        <item>Sports Bar</item>
+        <item>Tea</item>
+        <item>Wine</item>
+    </string-array>
+
+    <string name="title_activity_editorialsdetails">Editorialsdetails</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_fav_event_details">FavEventDetails</string>
+    <string name="title_activity_fav_search_details">FavSearchDetails</string>
+
+</resources>
